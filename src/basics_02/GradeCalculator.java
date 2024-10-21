@@ -19,7 +19,7 @@ public class GradeCalculator {
 
         /*
         1. Input from user
-        2. Basic logic or brute force login write basic rough code
+        2. Basic logic or brute force logic write basic rough code
         3. Write the real code
         4. Debug the code
         5. Fix the code and final it
