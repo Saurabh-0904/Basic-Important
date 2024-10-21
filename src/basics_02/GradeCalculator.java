@@ -6,7 +6,7 @@ public class GradeCalculator {
     public static void main(String[] args) {
         /*
         Grade Calculator
-        WAP that calculate an displays the letter grade for a given
+        WAP that calculate and displays the letter grade for a given
         numerical score (For example A, B, C, D or F) based on the following
         Grading Scale
 
@@ -30,7 +30,7 @@ public class GradeCalculator {
         As we are taking a score number from user, and it will be in float so we will take datatype as float
         And for printing a Grade as output we will use char datatype
 
-        2. Basic logic or brute force login write basic rough code
+        2. Basic logic or brute force logic write basic rough code
 
         if score >= 90 && Score <= 100 print Grade A
         else if score >= 80 && score 89 <= 100 print Grade B
