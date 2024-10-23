@@ -27,10 +27,11 @@ public class MathematicsProblem_1 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter values for x, y and z");
-
+        System.out.println("Enter the value of x");
         double x = sc.nextDouble();
+        System.out.println("Enter the value of y");
         double y = sc.nextDouble();
+        System.out.println("Enter the value of z");
         double z = sc.nextDouble();
         double result ;
 
@@ -44,6 +45,11 @@ public class MathematicsProblem_1 {
 
 //        System.out.println(Math.cbrt((x*x + y*y - Math.abs(z))));  // we can get ans by this single line also
 
+
+        sc.close();  // Scanner stream should be closed after we are done.
+                    // If we don't do JVM will do it, Garbage Collector -> who will do it for you
+                   //But it is not a good practice if we don't add
+                  // so add it in the last line (Good Practice)
 
     }
 
