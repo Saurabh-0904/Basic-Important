@@ -1,6 +1,6 @@
-package src.basics_02;
+package src.loops;
 
-public class For_Loop_3 {
+public class For_Loop_2 {
     public static void main(String[] args) {
 
         // print a table of given no
