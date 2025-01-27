@@ -1,9 +1,9 @@
-package src.practicePrograms;
+package src.code360_Programs;
 
 public class Main1 {
 
     public static void main(String args[]) {
-        Code360_Ques p = new Child1();
-        p.show();
+        //ParentClass1 p = new Child1();
+        //p.show();
     }
 }
