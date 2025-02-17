@@ -3,6 +3,14 @@ package src.arrays;
 public class Array2D_01 {
     public static void main(String[] args) {
 
+        //INTERVIEW QUE
+        //What is the meaning of the below syntaxes
+        //int[][] a,b; // 'a' and 'b' both are 2D array  // Most common way
+        //int[] a[],b; // 'a' is a 2D array and b is a simple in type variable
+        //int[] a[],b[]; // 'a' and 'b' both are 2D array
+        //int[][] a,b[]; //'a'a is 2D array and 'b' is a 3D array
+        //int[][] a,[]b; //'a' is 2D array and for b it will give compile time error
+
         // 1D
         int a [] = {1,2,3};
 
@@ -13,6 +21,7 @@ public class Array2D_01 {
         //|1,2,3|
         //|4,5,6|
         //|7,8,9|
+
 
         //Assigning value to Array Row 1
         arr[0][0] = 1;

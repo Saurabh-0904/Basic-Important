@@ -2,7 +2,7 @@ package src.oopsConcepts;
 
 public class Lab002 {
 
-    // here we have two functions and both are having different arguments
+    // here we have two functions, and both are having different arguments,
     //so JVM will check arguments of the which functions are matching
     static int sum (){
         return 99;

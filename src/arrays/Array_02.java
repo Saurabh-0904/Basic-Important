@@ -28,7 +28,7 @@ public class Array_02 {
         a[0]= 40;
 
 
-        final int [] b = new int[4];  // We have used a final keyword here so it will final array length only not values
+        final int [] b = new int[4];  // We have used a final keyword here, so it will make final array length only not values
         // b -> [0,0,0,0]
         b[0]=55;               // So we can assign values
         System.out.println(b[0]); // 55
